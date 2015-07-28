@@ -66,8 +66,6 @@ private static final long serialVersionUID = 1L;
     // Declare orderSummaryLabel with accompanying text area.
     JLabel orderSummaryLabel = new JLabel("Order Summary: ");
     JTextArea orderSummaryTextArea = new JTextArea();
-        
-    // [...]
     
     // Declare label.
     JLabel label = new JLabel("          ");
@@ -80,8 +78,12 @@ private static final long serialVersionUID = 1L;
     // Declare boolean array myToppings.
     boolean[] myToppings;
     
-    // Declare size.
+    // Declare size string.
     String size;
+    
+    // Declare chosenToppings string & i (index) integer.
+    String chosenToppings = ""; 
+    int i = 0; // index
         
     // Specify settings & add labels, textFields 1 & 2, etc. to GUI.
     Pizza() {
@@ -227,12 +229,15 @@ private static final long serialVersionUID = 1L;
         // Assign radio button selection to size string.
         Object choice = e.getActionCommand();
         
+            // If the small radio button is selected, assign size to "small."
             if (choice == smallRadioButton) {
                 size = "small";
-                    
+
+            // If the medium radio button is selected, assign size to "medium".    
             } else if (choice == mediumRadioButton) {
                 size = "medium";
           
+            // If the large radio button is selected, assign size to "large".
             } else if (choice == largeRadioButton) {
                 size = "large";
             }
@@ -241,24 +246,31 @@ private static final long serialVersionUID = 1L;
         // When users press the 'Order Pizza' button...
         Object source = e.getSource();
             
+            // When the "Order Pizza" button is pressed, figure out which
+            // toppings were chosen.
             if (source == button) {
-                int i = 0;
-                String chosenToppings = "";
-            
+                
                 for (i = 0; i < myToppings.length; i++) {
                     if (myToppings[i]) {
                         chosenToppings = chosenToppings + toppings[i];
                     }
                 }
             
-            // ...print pizza order selections to text area under button.
-            String orderSummary = ("\nYou ordered a " + size + "pizza with " +
+            // Display pizza order selections in Order Summary text area.
+            
+                // Assign string orderSummary the phrase to be printed.
+                String orderSummary = ("\nYou ordered a " + size + "pizza with " +
                     chosenToppings +
                     " for toppings. " +
                     "\nThank you! Enjoy your imaginary pizza.");
-            orderSummaryTextArea.setText(orderSummary);
             
-            orderSummaryTextArea.getText();
+                // Set the text in the Order Summary text area to the defined
+                // value of the order summary string.
+                orderSummaryTextArea.setText(orderSummary);
+                
+                // Push the text to the GUI
+                orderSummaryTextArea.getText();
+                orderSummaryTextArea.setVisible(true);
             }
     }
 }
