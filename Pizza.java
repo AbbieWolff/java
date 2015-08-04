@@ -76,7 +76,7 @@ private static final long serialVersionUID = 1L;
     };
     
     // Declare boolean array myToppings.
-    boolean[] myToppings;
+    boolean[] myToppings = new boolean[5];
     
     // Declare size string.
     String size;
@@ -227,7 +227,7 @@ private static final long serialVersionUID = 1L;
     public void actionPerformed(ActionEvent e) {
                
         // Assign radio button selection to size string.
-        Object choice = e.getActionCommand();
+        Object choice = e.getSource();
         
             // If the small radio button is selected, assign size to "small."
             if (choice == smallRadioButton) {
@@ -250,18 +250,37 @@ private static final long serialVersionUID = 1L;
             // toppings were chosen.
             if (source == button) {
                 
-                for (i = 0; i < myToppings.length; i++) {
-                    if (myToppings[i]) {
-                        chosenToppings = chosenToppings + toppings[i];
-                    }
+                // If pepperoni was selected, add it to chosenToppings output.
+                if (pepperoniCheckBox.isSelected()) {
+                    chosenToppings = chosenToppings + " " + "pepperoni, ";
+                }
+                
+                // If pineapple was selected, add it to chosenToppings output.
+                if (pineappleCheckBox.isSelected()) {
+                    chosenToppings = chosenToppings + " " + "pineapple, ";
+                }
+                
+                // If bacon was selected, add it to chosenToppings output.
+                if (baconCheckBox.isSelected()) {
+                    chosenToppings = chosenToppings + " " + "bacon, ";
+                }
+                
+                // If mushrooms was selected, add it to chosenToppings output.
+                if (mushroomsCheckBox.isSelected()) {
+                    chosenToppings = chosenToppings + " " + "mushrooms, ";
+                }
+                
+                // If extra cheese was selected, add it to chosenToppings output.
+                if (extraCheeseCheckBox.isSelected()) {
+                    chosenToppings = chosenToppings + " " + "extra cheese, ";
                 }
             
             // Display pizza order selections in Order Summary text area.
             
                 // Assign string orderSummary the phrase to be printed.
-                String orderSummary = ("\nYou ordered a " + size + "pizza with " +
+                String orderSummary = ("\nYou ordered a " + size +
+                    " pizza with the following toppings: " +
                     chosenToppings +
-                    " for toppings. " +
                     "\nThank you! Enjoy your imaginary pizza.");
             
                 // Set the text in the Order Summary text area to the defined
