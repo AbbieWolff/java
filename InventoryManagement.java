@@ -21,9 +21,10 @@ import java.util.Scanner;
 // Import Java Swing & event packages.
 import javax.swing.*;
 import javax.swing.JFrame; // Frame
-import javax.swing.JComponent; // Component
 import javax.swing.JPanel; // Panel
+//import javax.swing.JTabbedPane; // Tabs
 import javax.swing.JComboBox; // Combo box
+import javax.swing.JComponent; // Component
 import javax.swing.JTextArea; // Text area
 import javax.swing.JButton; // Button
 import javax.swing.JLabel; // Label
@@ -32,6 +33,7 @@ import javax.swing.JCheckBox; // Check box
 import javax.swing.JRadioButton; // Radio button
 import javax.swing.ButtonGroup; // Button group
 import java.awt.Color; // Color
+//import java.awt.Component; // Component
 import java.awt.FlowLayout; // Flow layout
 import java.awt.event.ActionEvent; // Action event
 import java.awt.event.ActionListener; // Action listener
@@ -39,6 +41,7 @@ import java.awt.event.MouseEvent; // Mouse event
 import java.awt.event.MouseListener; // Mouse listener.
 import java.awt.event.ItemEvent; // Item event.
 import java.awt.event.ItemListener; // Item listener.
+//import java.awt.event.KeyEvent;
 
 public class InventoryManagement extends JFrame implements
         ActionListener, MouseListener, ItemListener {
@@ -48,17 +51,23 @@ public class InventoryManagement extends JFrame implements
     
     // DECLARATIONS
     
-    // Overall content pane.
-    JPanel ContentPanel = new JPanel();
-        
-    // Labels
+    // Declare major content pane panel.
+    public JPanel ContentPanel = new JPanel();
+    
+    // Tabs
+        // Declare tabbed pane
+        //JTabbedPane Tabs = new JTabbedPane();
+        //ImageIcon icon;    
+            
+    // Label
         // Declare label.
         JLabel label = new JLabel("The Witcher 3: Wild Hunt Inventory Aid");
-
+        
     // Combo box
+        
         // Declare JPanel for combo box.
         JPanel ComboBoxPanel = new JPanel();
-        
+   
         // Declare combo box label.
         JLabel ComboBoxLabel = new JLabel("Please choose one: ");
         
@@ -68,8 +77,11 @@ public class InventoryManagement extends JFrame implements
    
         // Declare itemList, a combo box using the values of itemStrings.
         JComboBox itemList = new JComboBox(itemStrings);
-    
+        
+        //JComponent ComboBoxTab;
+       
     // Check boxes
+
         // Declare check box panel.
         JPanel CheckBoxPanel = new JPanel();
         
@@ -83,11 +95,9 @@ public class InventoryManagement extends JFrame implements
         JCheckBox CheckBox3 = new JCheckBox("3");
         JCheckBox CheckBox4 = new JCheckBox("4");
         JCheckBox CheckBox5 = new JCheckBox("5");
-            
-        // Declare check box button.
-        JButton CheckBoxButton = new JButton("Submit selections");
-    
-    
+        
+        //JComponent CheckBoxTab;
+
     // Radio buttons
         // Declare radio button panel.
         JPanel RadioButtonPanel = new JPanel();
@@ -101,10 +111,9 @@ public class InventoryManagement extends JFrame implements
             JRadioButton RadioButtonB = new JRadioButton("B");
             JRadioButton RadioButtonC = new JRadioButton("C");
             
-        // Declare radio button selection button.
-        JButton RadioButton = new JButton("Submit choice");
+        //JComponent RadioButtonTab;\
     
-    // Output
+    // Results
         // Declare output panel.
         JPanel OutputPanel = new JPanel();
         
@@ -114,6 +123,7 @@ public class InventoryManagement extends JFrame implements
         // Declare button.
         JButton button = new JButton("SUBMIT ALL");
     
+        //JComponent ResultsTab;
         
     // Strings and arrays
         // Declare results strings.
@@ -133,9 +143,20 @@ InventoryManagement() {
     // Set the background color to default: white.
     setBackground(Color.white);
     
-    // Add content pane panel (called ContentPanel).
+    // Set GUI title to "Inventory Manager".
+    setTitle("Inventory Manager");
+    
+    // Add content pane panel, ContentPanel.
     add(ContentPanel);
     setContentPane(ContentPanel);
+    ContentPanel.setVisible(true);
+    
+    // Add tabs
+        //this.ResultsTab = Tabs.makeTextPanel("Results");
+        //this.RadioButtonTab = Tabs.makeTextPanel("Radio Buttons");
+        //this.CheckBoxTab = Tabs.makeTextPanel("Check Boxes");
+        //this.ComboBoxTab = Tabs.makeTextPanel("Combo Box");
+        //this.icon = createImageIcon("images/middle.gif");
         
     // Add the label to the GUI.
     ContentPanel.add(label);
@@ -145,14 +166,19 @@ InventoryManagement() {
         // Add combo box panel.
         ContentPanel.add(ComboBoxPanel);
         add(ComboBoxPanel);
+        ComboBoxPanel.setVisible(true);
         
-        // Add combo box label.
-        ComboBoxPanel.add(ComboBoxLabel);
-        add(ComboBoxLabel);
+            // Initialize combo box tab.
+            //Tabs.addTab("Combo Boxes", icon, ComboBoxTab, "description");
+            //Tabs.setMnemonicAt(1, KeyEvent.VK_1);
         
-        // Add the itemList combo box to the GUI.
-        ComboBoxPanel.add(itemList);
-        add(itemList);
+            // Add combo box label.
+            ComboBoxPanel.add(ComboBoxLabel);
+            add(ComboBoxLabel);
+        
+            // Add the itemList combo box to the GUI.
+            ComboBoxPanel.add(itemList);
+            add(itemList);
             
             // Set properties of itemList combo box: uneditable, white.
             itemList.setEditable(false); // make contents uneditable
@@ -163,10 +189,15 @@ InventoryManagement() {
     // Add radio buttons to group and to GUI.
         ContentPanel.add(RadioButtonPanel);
         add(RadioButtonPanel);
+        RadioButtonPanel.setVisible(true);
+        
+            // Initialize radio button tab.
+            //Tabs.addTab("Radio Buttons", icon, RadioButtonTab, "description");
+            //Tabs.setMnemonicAt(2, KeyEvent.VK_2);
         
             RadioButtonPanel.add(RadioButtonLabel);
             add(RadioButtonLabel);
-        
+            
             RadioButtonPanel.add(RadioButtonA);
             add(RadioButtonA);
             buttonGroup.add(RadioButtonA);
@@ -182,41 +213,41 @@ InventoryManagement() {
             buttonGroup.add(RadioButtonC);
             RadioButtonC.addActionListener(this);
         
-            // Add a main radio button to register when a choice has been made.
-            RadioButtonPanel.add(RadioButton);
-            add(RadioButton);
-            RadioButton.addActionListener(this);
-        
     // Add check boxes.
         ContentPanel.add(CheckBoxPanel);
         add(CheckBoxPanel);
+        CheckBoxPanel.setVisible(true);
         
-            CheckBoxPanel.add(CheckBoxLabel);
+            // Initialize check box tab.
+            //Tabs.addTab("Check Boxes", icon, CheckBoxTab, "description");
+            //Tabs.setMnemonicAt(3, KeyEvent.VK_3);
+        
+            //CheckBoxPanel.add(CheckBoxLabel);
             add(CheckBoxLabel);
         
-            CheckBoxPanel.add(CheckBox1);
+            //CheckBoxPanel.add(CheckBox1);
             add(CheckBox1);
         
-            CheckBoxPanel.add(CheckBox2);
+            //CheckBoxPanel.add(CheckBox2);
             add(CheckBox2);
         
-            CheckBoxPanel.add(CheckBox3);
+            //CheckBoxPanel.add(CheckBox3);
             add(CheckBox3);
         
-            CheckBoxPanel.add(CheckBox4);
+            //CheckBoxPanel.add(CheckBox4);
             add(CheckBox4);
         
-            CheckBoxPanel.add(CheckBox5);
+            //CheckBoxPanel.add(CheckBox5);
             add(CheckBox5);
-        
-            // Add main check box button with listener.
-            CheckBoxPanel.add(CheckBoxButton);
-            add(CheckBoxButton);
-            CheckBoxButton.addActionListener(this);
         
     // Output
         ContentPanel.add(OutputPanel);
         add(OutputPanel);
+        OutputPanel.setVisible(true);
+        
+            // Initialize results tab.
+            //Tabs.addTab("Results", icon, ResultsTab, "description");
+            //Tabs.setMnemonicAt(3, KeyEvent.VK_3);
         
             // Add the "SUBMIT ALL" button.
             OutputPanel.add(button);
@@ -235,7 +266,7 @@ InventoryManagement() {
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
     // Make the GUI visible.
-    setSize(500, 500);
+    setSize(275, 500);
     setVisible(true);
     }
     
@@ -247,47 +278,47 @@ InventoryManagement() {
         Object selection = i.getItemSelectable();
             
             // What to do when each toppings check box is selected...
-            // If pepperoni is selected...
+            // If 1 is selected...
             if (selection == CheckBox1) {    
                 mySelections[0] = true;
-                CheckBoxSelections = CheckBoxSelections + " " + "a, ";
-            // Else if pepperoni is deselected...
+                //CheckBoxSelections = CheckBoxSelections + " " + "a, ";
+            // Else if 1 is deselected...
             } else if (selection != CheckBox1) {
                 mySelections[0] = false;
             }   
         
-            // If pineapple is selected...
+            // If 2 is selected...
             else if (selection == CheckBox2) {
                 mySelections[1] = true;
-                CheckBoxSelections = CheckBoxSelections + " " + "b, ";
-            // Else if pineapple is deselected...
+                //CheckBoxSelections = CheckBoxSelections + " " + "b, ";
+            // Else if 2 is deselected...
             } else if (selection != CheckBox2) {
                 mySelections[1] = false;
             }
         
-            // If bacon is selected...
+            // If 3 is selected...
             else if (selection == CheckBox3) {
                 mySelections[2] = true;
-                CheckBoxSelections = CheckBoxSelections + " " + "c, ";
-            // Else if bacon is deselected...
+                //CheckBoxSelections = CheckBoxSelections + " " + "c, ";
+            // Else if 3 is deselected...
             } else if (selection != CheckBox3) {
                 mySelections[2] = false;
             } 
         
-            // If mushrooms is/are selected...
+            // If 4 is selected...
             else if (selection == CheckBox4) {
                 mySelections[3] = true;
-                CheckBoxSelections = CheckBoxSelections + " " + "d, ";
-            // Else if mushrooms is/are deselected...
+                //CheckBoxSelections = CheckBoxSelections + " " + "d, ";
+            // Else if 4 is deselected...
             } else if (selection != CheckBox4) {
                 mySelections[3] = false;
             }
         
-            // If extra cheese is selected...
+            // If 5 is selected...
             else if (selection == CheckBox5) {
                 mySelections[4] = true;
-                CheckBoxSelections = CheckBoxSelections + " " + "e, ";
-            // Else if extra cheese is deselected...
+                //CheckBoxSelections = CheckBoxSelections + " " + "e, ";
+            // Else if 5 is deselected...
             } else if (selection != CheckBox5) {
                 mySelections[4] = false;
             }
@@ -301,13 +332,11 @@ InventoryManagement() {
     // Enable program to sense when users enter the GUI area with a mouse.
     @Override
     public void mouseEntered(MouseEvent m) {
-        label.setForeground(Color.red);
     }
     
     // Enable program to sense when users exit the GUI area with a mouse.
     @Override
     public void mouseExited(MouseEvent m) {
-        label.setForeground(Color.black);
     }
 
     // Enable program to sense when users click a mouse.
@@ -376,58 +405,50 @@ InventoryManagement() {
                 chosenItems = "item8";
             }            
             
-            // When the main radio button is pressed, figure out which one.
-            if (source == RadioButton) {
-            
-                // If the A radio button is selected, assign size to "A".
-                if (source == RadioButtonA) {
-                    RadioButtonSelection = "A";
+            // When a radio button is pressed, figure out which one.
+            // If the A radio button is selected, assign size to "A".
+            if (source == RadioButtonA) {
+                RadioButtonSelection = "A";
 
-                // If the B radio button is selected, assign size to "B".    
-                } else if (source == RadioButtonB) {
-                    RadioButtonSelection = "B";
+            // If the B radio button is selected, assign size to "B".    
+            } else if (source == RadioButtonB) {
+                RadioButtonSelection = "B";
           
-                // If the C radio button is selected, assign size to "C".
-                } else if (source == RadioButtonC) {
+            // If the C radio button is selected, assign size to "C".
+            } else if (source == RadioButtonC) {
                     RadioButtonSelection = "C";
-                }
-            }
+            }            
     
-            // When the check boxes button is pressed, figure out which
-            // check boxes were chosen.
-            if (source == CheckBoxButton) {
-                
-                // If 1 was selected, add it to check box selections output.
-                if (CheckBox1.isSelected()) {
-                    CheckBoxSelections = CheckBoxSelections + " " + "1, ";
-                }
-                
-                // If 2 was selected, add it to check box selections output.
-                if (CheckBox2.isSelected()) {
-                    CheckBoxSelections = CheckBoxSelections + " " + "2, ";
-                }
-                
-                // If 3 was selected, add it to check box selections output.
-                if (CheckBox3.isSelected()) {
-                    CheckBoxSelections = CheckBoxSelections + " " + "3, ";
-                }
-                
-                // If 4 was selected, add it to check box selections output.
-                if (CheckBox4.isSelected()) {
-                    CheckBoxSelections = CheckBoxSelections + " " + "4, ";
-                }
-                
-                // If 5 was selected, add it to check box selections output.
-                if (CheckBox5.isSelected()) {
-                    CheckBoxSelections = CheckBoxSelections + " " + "5, ";
-                }
+            // Figure out which check box{es} were chosen.
+            // If 1 was selected, add it to check box selections output.
+            if (CheckBox1.isSelected()) {
+                CheckBoxSelections = CheckBoxSelections + " " + "1, ";
+                }   
+            // If 2 was selected, add it to check box selections output.
+            if (CheckBox2.isSelected()) {
+                CheckBoxSelections = CheckBoxSelections + " " + "2, ";
             }
-                                   
+                
+            // If 3 was selected, add it to check box selections output.
+            if (CheckBox3.isSelected()) {
+                CheckBoxSelections = CheckBoxSelections + " " + "3, ";
+            }
+                
+            // If 4 was selected, add it to check box selections output.
+            if (CheckBox4.isSelected()) {
+                CheckBoxSelections = CheckBoxSelections + " " + "4, ";
+            }
+                
+            // If 5 was selected, add it to check box selections output.
+            if (CheckBox5.isSelected()) {
+                CheckBoxSelections = CheckBoxSelections + " " + "5, ";
+            }
+                                  
             setVisible(true);
             
             // Report the choices made by the user in the output text area.
             outputTextArea.setText("\nYou chose " + chosenItems + ", " +
-                RadioButtonSelection + ", and " + CheckBoxSelections + " ." +
+                RadioButtonSelection + ", and " + CheckBoxSelections + "." +
                 "\nThanks!");
             
             // Push the text to the GUI
@@ -436,4 +457,4 @@ InventoryManagement() {
             
         } // end "if button is pressed..." code section
     } // end action event code section
-} // end all code in this Java class   
+} // end all code in this Java class     
