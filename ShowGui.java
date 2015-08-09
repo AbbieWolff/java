@@ -18,8 +18,14 @@ package inventorymanagement;
 public class ShowGUI {
      // Command line arguments.
     public static void main(String args[]) {
+
+        // Initialize classes.
+        new Item();
+        new Recipe();
+        new Ingredients();
+        new InventoryManager();
         
         // Initialize GUI.
-        new InventoryManagement();
+        new GUI();
     }   
 }
