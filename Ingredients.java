@@ -25,10 +25,10 @@ import java.util.Iterator;
 
 class Ingredients {
     
-    public Ingredients myIngredients;
+    //public Ingredients myIngredients;
     
     // Declare an array list called ingredients.
-    public ArrayList ingredients = new ArrayList();
+    //public ArrayList<ItemWithQuantity> ingredients = new ArrayList();
     
     /*      
     // Add entries to the ingredients array list.
