@@ -19,34 +19,30 @@ package inventorymanagement;
 
 public class Item {
     
-    //public Item myItem;
-    public Item myItem;
-    
-    // Declare a name string with set & get methods.
+    // Define strings for name & description.
     String name;
-        public void setName(String name) {
-            // insert code
-        }
-        public void getName(String name) {
-            
-        }
-
-    // Declare a description string with set & get methods.
     String description;
-        public void setDescription(String description) {
-            // insert code
-        }
-        public void getDescription(String description) {
-            
-        }
-        
-    // Declare a quantity integer with set & get methods.
-    int quantity;
-        public void setQuantity(int quantity) {
-            // insert code
-        }
-        public void getQuantity(int quantity) {
-            
-        }
+    
+    // Define ItemWithQuantity class constructors.
+    public Item (String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
+    
+    // Declare set & get methods for class variables name & description.
+    public void setName(String newName) {
+        this.name = newName;
+    }
+    
+    public String getName() {
+        return this.name;
+    }
 
+    public void setDescription(String newDescription) {
+        this.name = newDescription;
+    }
+    
+    public String getDescription() {
+        return this.description;   
+    }
 }
