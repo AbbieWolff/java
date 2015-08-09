@@ -16,25 +16,48 @@
 package inventorymanagement;
 
 // imports 
+import java.util.ArrayList;
+
 
 public class Recipe {
     
-    public Recipe myRecipe;
+    // Declare Recipe class constructors: result Item, ingredients ArrayList, 
+    // hasCompleted boolean; 
+    public Recipe(Item result, ArrayList<ItemWithQuantity> ingredients, 
+            boolean hasCompleted) {
+      this.result = result;
+      this.ingredients = ingredients;
+      this.hasCompleted = hasCompleted;
+    }
     
-    // Declare a name string with set & get methods.
-    String name;
-        public void setName(String name) {
-            // insert code
-        }
-        public void getName(String name) {
-        }
-
-    // Declare a description string with set & get methods.
-    String description;
-        public void setDescription(String description) {
-            // insert code
-        }
-        public void getDescription(String description) {
-        }
+    // Declare an item called result.
+    public Item result;
+    
+    // Declare a get name method.
+    public String getName() {
+        return this.result.name;
+    }
+    
+    // Declare a get description method.
+    public String getDescription() {
+        return this.result.description;
+    }
+    
+    // Declare a boolean to contain the status of recipe completion.
+    public boolean hasCompleted; // initially set to false (incomplete)
+    
+    // Declare a set method for the boolean.
+    public void setHasCompleted(boolean done) {
+        this.result.hasCompleted = done;
+    }
+    
+    // Declare a get method for the boolean.
+    public String getHasCompleted() {
+        return toString(this.result.hasCompleted);
+    }
+    
+    
+    // Declare an array list called ingredients.
+    public ArrayList<ItemWithQuantity> ingredients = new ArrayList();
  
 }
