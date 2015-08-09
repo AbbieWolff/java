@@ -16,35 +16,62 @@
 package inventorymanagement;
 
 // imports
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class InventoryManager {
     
+    // Declare chosenItem and chosenItemDescription strings.
     public String chosenItem;
     public String chosenItemDescription;
     
+    // Declare chosenRecipe and ChosenRecipeDescription strings.
     public String chosenRecipe;
     public String chosenRecipeDescription;
     
-    public String completedRecipes;
-    public String myItems;
-    public String myRecipes;
+    // Declare allItems, myItems, allRecipes, myRecipes Array lists.
+    public ArrayList<Item> allItems;
+    public ArrayList<Item> myItems; 
+    public ArrayList<Recipe> allRecipes;
+    public ArrayList<Recipe> myRecipes;
+    public ArrayList<Recipe> completedRecipes;
     
+    // Declare completed recipes, my items, my recipes strings.
+    public String completedRecipesString;
+        //completedRecipesString = toString(completedRecipes);
+    public String myItemsString;
+        //myItemsString = toString(myItems);
+    public String myRecipesString;
+        //myRecipesString = toString(myRecipes);
+        
+    // Declare a method to get items by name.     
+    public Item getItemByName(String name) {
+        // Return Item from allItems with name matching given name
+    }
+   
+    // Declare a method to get recipes by name.
+    public Item getRecipeByName(String name) {
+        // Return Item from allRecipes with name matching given name.
+    }
     
     // Declare a method to display completed recipes.
     public void displayRecipesDone (String[] finishedRecipes) {
-        // Print completedRecips.
-        System.out.println("\nThe recipes you have already completed include: " +
-                completedRecipes);
+        
+    //go through all recipes in allRecipes 
+    //and do something with the ones where myRecipe.hasCompleted==true
+        
+    // Print completedRecips.
+    System.out.println("\nThe recipes you have already completed include: " +
+            completedRecipesString);
     }
     
-    // Declare a method to display needed items.
+    // Declare a method to display all item ingredients in incomplete recipes.
     public void displayItems (String[] neededItems) {
         // work on this...
         
         // Print myItems.
-        System.out.println("\nThe items you still need include: " + myItems);
+        System.out.println("\nThe items you still need include: " + myItemsString);
     }
     
     // Declare a method to display recipes that have yet to be made.
@@ -53,7 +80,7 @@ public class InventoryManager {
             
         // Print myRecipes.
         System.out.println("\nThe recipes you still need to make include: " + 
-                myRecipes);
+                myRecipesString);
     }
     
     // Declare a method to display an item description.
