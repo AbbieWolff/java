@@ -1,0 +1,272 @@
+Archgriffin Mutagen
+Arenaria
+Balisse Fruit
+Basilisk Decoction
+Basilisk Hide
+Basilisk Mutagen
+Basilisk Venom
+Bear Fat
+Bear Pheromones
+Beast Oil
+Beggartick Blossoms
+Berbercane Fruit
+Berserker Hide
+Bison Grass
+Black Blood
+Blizzard
+Bloodmoss
+Blowball
+Blowbill
+Bryonia
+Buckthorn
+Calcium Equum
+Cat
+Cave Troll Liver
+Celandine
+Cherry Cordial
+Chitin Scale
+Chort Decoction
+Chort Hide
+Chort Mutagen
+Cockatrice Decoction
+Cockatrice Egg
+Cockatrice Mutagen
+Cockatrice Stomach
+Cortinarius
+Crow's Eye
+Crystallized Essence
+Cursed Oil
+Cyclops' Eye
+Dark Essence
+Devourer's Blood
+Dog Tallow
+Doppler Decoction
+Doppler Mutagen
+Draconid Oil
+Drowner Brain
+Drowner Pheromones
+Drowner Tongue
+Ducal Water
+Dwarven Spirit
+Earth Elemental Decoction
+Earth Elemental Mutagen
+Ekhidna Decoction
+Ekimmara Decoction
+Ekimmara Hide
+Ekimmara Mutagen
+Ekkidna Mutagen
+Elementa Oil
+Elemental Essence
+Empty Bottle
+Endrega Embryo
+Endrega Heart
+Enhanced Beast Oil
+Enhanced Black Blood
+Enhanced Blizzard
+Enhanced Cat
+Enhanced Cursed Oil
+Enhanced Draconid Oil
+Enhanced Elementa Oil
+Enhanced Full Moon
+Enhanced Golden Oriole
+Enhanced Hanged Man's Venom
+Enhanced Hybrid Oil
+Enhanced Insectoid Oil
+Enhanced Maribor Forest
+Enhanced Necrophage Oil
+Enhanced Ogroid Oil
+Enhanced Petri's Philter
+Enhanced Relict Oil
+Enhanced Specter Oil
+Enhanced Swallow
+Enhanced Tawny Owl
+Enhanced Thunderbolt
+Enhanced Vampire Oil
+Enhanced White Honey
+Enhanced White Rafford's Decoction
+Ergot Seeds
+Erynia Eye
+Essence of Wraith
+Fiend Decoction
+Fiend Mutagen
+Fiend's Eye
+Fifth Essence
+Foglet Decoction
+Foglet Mutagen
+Foglet Teeth
+Fool's Parsley Leaves
+Forktail Decoction
+Forktail Hide
+Forktail Mutagen
+Full Moon
+Gargoyle Dust
+Gargoyle Heart
+Ghoul's Blood
+Ginatia Petals
+Golden Oriole
+Golem's Heart
+Grave Hag Decoction
+Grave Hag Mutagen
+Grave Hag's Ear
+Greater Blue Mutagen
+Greater Green Mutagen
+Greater Red Mutagen
+Green Mold
+Griffin Decoction
+Griffin Feathers
+Griffin Mutagen
+Griffin's Egg
+Hag Tooth
+Han Fiber
+Hanged Man's Venom
+Harpy Eggs
+Harpy Feathers
+Harpy Talons
+Hellebore Petals
+Homemade Pepper Vodka
+Honeysuckle
+Hop Umbels
+Hornwort
+Hybrid Oil
+Hydragenum
+Insectoid Oil
+Katakan Decoction
+Katakan Mutagen
+Killer Whale
+Leshen Decoction
+Leshen Mutagen
+Leshen Resin
+Lesser Blue Mutagen
+Lesser Green Mutagen
+Lesser Red Mutagen
+Light Essence
+Lock of Lamia Hair
+Longrube
+Lunar Shards
+Mahakaman Spirit
+Mandrake Cordial
+Mandrake Root
+Maribor Forest
+Mistletoe
+Moleyarrow
+Monster Blood
+Monster Claw
+Monster Dust
+Monster Egg
+Monster Essence
+Monster Feather
+Monster Hair
+Monster Heart
+Monster Hide
+Monster Liver
+Monster Plate
+Monster Saliva
+Monster Tongue
+Monster Tooth
+Necrophage Hide
+Necrophage Oil
+Nekker Blood
+Nekker Claw
+Nekker Eye
+Nekker Heart
+Nekker Pheromones
+Nekker Warrior Decoction
+Nekker Warrior Mutagen
+Nekker Warrior's Liver
+Nightwraith Decoction
+Nightwraith Hair
+Nightwraith Mutagen
+Nigredo
+Nilfgaardian Lemon
+Noonwraith Decoction
+Noonwraith Mutagen
+Nostrix
+Ogroid Oil
+Oil
+Optima Mater
+Petri's Philter
+Phosphorus
+Pigskin Puffball
+Pop's Mold Antidote
+Potion of Clearance
+Pringrape
+Puffball
+Quebrith
+Quicksilver Solution
+Ranogrin
+Rebis
+Redanian Herbal
+Relict Oil
+Reliever's Decoction
+Resin
+Ribleaf
+Rotfiend Blood
+Rubedo
+Saltpeter
+Sewant Mushrooms
+Specter Dust
+Specter Oil
+Stammelford's Dust
+Succubus Decoction
+Succubus Mutagen
+Sulfur
+Superior Beast Oil
+Superior Black Blood
+Superior Blizzard
+Superior Cat
+Superior Cursed Oil
+Superior Draconid Oil
+Superior Elementa Oil
+Superior Full Moon
+Superior Golden Oriole
+Superior Hanged Man's Venom
+Superior Hybrid Oil
+Superior Insectoid Oil
+Superior Maribor Forest
+Superior Necrophage Oil
+Superior Ogroid Oil
+Superior Petri's Philter
+Superior Relict Oil
+Superior Specter Oil
+Superior Swallow
+Superior Tawny Owl
+Superior Thunderbolt
+Superior Vampire Oil
+Superior White Honey
+Superior White Rafford's Decoction
+Swallow
+Tawny Oil
+Tawny Owl
+Temerian Rye
+Thunderbolt
+Troll Claw
+Troll Decoction
+Troll Hide
+Vampire Fang
+Vampire Oil
+Vampire Saliva
+Venom Extract
+Verbena
+Vermilion
+Vitriol
+Water Essence
+Water Hag Decoction
+Water Hag Mutagen
+Water Hag Tooth
+Werewolf Decoction
+Werewolf Hide
+Werewolf Mutagen
+Werewolf Saliva
+White Gull
+White Honey
+White Myrtle Petals
+White Raffard's Decoction
+Wine Stone
+Wolf's Liver
+Wolfsbane
+Wraith Decoction
+Wraith Mutagen
+Wyvern Decoction
+Wyvern Egg
+Wyvern Hide
+Wyvern Mutagen
