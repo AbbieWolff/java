@@ -99,6 +99,18 @@ public class GUI extends JFrame implements
         
         // Declare output label.
         JTextArea outputTextArea = new JTextArea();
+        
+        // Declare output text area that will contain file reader output.
+        static JTextArea outputTextArea2 = new JTextArea();
+        
+        // Declare public methods to set & get text in public output text area.
+        public static void setOutputText(String output) {
+            outputTextArea2.setText(output);
+        }
+        public static void getOutputText() {
+            outputTextArea2.getText();
+            outputTextArea2.setVisible(true);
+        }
     
         // Declare button.
         JButton button = new JButton("SUBMIT ALL");
@@ -229,7 +241,7 @@ GUI() {
             //Tabs.addTab("Results", icon, ResultsTab, "description");
             //Tabs.setMnemonicAt(3, KeyEvent.VK_3);
         
-            // Add the "SUBMIT ALL" button.
+            // Add the "SUBMIT" button.
             OutputPanel.add(button);
             add(button);
             button.addActionListener(this);
@@ -238,6 +250,11 @@ GUI() {
             OutputPanel.add(outputTextArea);
             add(outputTextArea);
             outputTextArea.setEditable(false);
+            
+            // Add output text area 2 and make it uneditable.
+            OutputPanel.add(outputTextArea2);
+            add(outputTextArea2);
+            outputTextArea2.setEditable(false);
         
     // Pack the GUI elements.
     pack();
