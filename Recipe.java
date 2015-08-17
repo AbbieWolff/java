@@ -23,9 +23,10 @@ public class Recipe {
     
     // Declare Recipe class constructors: result Item, ingredients ArrayList, 
     // hasCompleted boolean; 
-    public Recipe(Item result, ArrayList<ItemWithQuantity> ingredients, 
+    public Recipe(Item result, String name, ArrayList<ItemWithQuantity> ingredients, 
             boolean hasCompleted) {
       this.result = result;
+      this.name = name;
       this.ingredients = ingredients;
       this.hasCompleted = hasCompleted;
     }
@@ -48,14 +49,13 @@ public class Recipe {
     
     // Declare a set method for the boolean.
     public void setHasCompleted(boolean done) {
-        this.result.hasCompleted = done;
+        this.hasCompleted = done;
     }
     
     // Declare a get method for the boolean.
     public String getHasCompleted() {
-        return toString(this.result.hasCompleted);
+        return Boolean.toString(this.hasCompleted);
     }
-    
     
     // Declare an array list called ingredients.
     public ArrayList<ItemWithQuantity> ingredients = new ArrayList();
