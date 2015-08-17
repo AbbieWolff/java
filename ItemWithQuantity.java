@@ -20,12 +20,13 @@ public class ItemWithQuantity {
     public int quantity;
     public Item item;
     
-    // Define ItemWithQuantity class constructors.
+    // Define ItemWithQuantity class constructors: quantity & item.
     public ItemWithQuantity(int quantity, Item item) {
         this.quantity = quantity;
         this.item = item;
     }
     
+    // Declare set and get methods for quantity.
     public void setQuantity(int newQuantity) {
         this.quantity = newQuantity;
     }
