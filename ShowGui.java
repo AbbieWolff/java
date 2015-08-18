@@ -19,9 +19,6 @@ public class ShowGUI {
     
     // Command line arguments.
     public static void main (String[] args) {
-    
-        // Initialize InventoryManager class.
-        new InventoryManager();
         
         // Initialize GUI.
         new GUI();
