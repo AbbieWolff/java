@@ -23,10 +23,9 @@ public class Recipe {
     
     // Declare Recipe class constructors: result Item, ingredients ArrayList, 
     // hasCompleted boolean; 
-    public Recipe(Item result, String name, ArrayList<ItemWithQuantity> ingredients, 
+    public Recipe(Item result, ArrayList<ItemWithQuantity> ingredients, 
             boolean hasCompleted) {
       this.result = result;
-      this.name = name;
       this.ingredients = ingredients;
       this.hasCompleted = hasCompleted;
     }
