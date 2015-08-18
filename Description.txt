@@ -1,288 +1,289 @@
-
-
-
-
-
-
-
-
-"""Adrenaline Points are generated more quickly than normal until the first successful enemy attack."""
-
-
-"""Each Sign cast increases Stamina regeneration for the remainder of the fight."""
-
-"""Reduces damage received based on armor and inventory weigh: less weight carried and lighter armor means less damage is taken."""
-
-
-
-"""If any Stamina is available, strong strikes consume all of it and reduce the struck foe's Vitality by 10% after their normal damage is calculated."""
-
-
-
-"""Applies a random beneficial effect at dusk and dawn. The effect lasts for six hours."""
-
-
-
-
-"""Bears will not attack the witcher."""
-"""10% Attack Power versus Beasts"""
-
-
-
-
-"""Witcher's blood injures vampires and necrophages when they wound him."""
-"""Slows down time for everyone except witcher for a short period after killing an enemy."""
-
-
-
-
-
-
-"""Grants sight in total darkness."""
-
-
-
-
-"""Provides complete resistance to the Stagger effect and reduces the Knock-down effect to Stagger."""
-
-
-"""All alchemy creations can be used one additional time."""
-
-
-
-
-
-
-"""10% Attack Power versus Cursed Ones"""
-
-
-
-
-"""Increases critical hit damage when attacking from behind."""
-
-"""10% Attack Power versus Draconids"""
-
-"""Drowners will not attack the witcher."""
-
-
-
-"""Increases resistance to Vitality-depleting critical effects applied during combat. The resistance level rises the longer the critical effect is applied."""
-
-"""Performing actions that consume Stamina regenerates Vitality."""
-"""Damage dealt to foes regenerates Vitality."""
-
-
-
-"""10% Attack Power versus Elementa"""
-
-
-
-
-"""25% Attack Power versus Beasts"""
-"""Witcher's blood injures and knocks back vampires and necrophages when they wound him."""
-"""Slows down time for everyone except witcher for a short period after killing an enemy. Great slowdown."""
-"""Grants sight in total darkness and immunity to hypnosis. Extended duration."""
-"""25% Attack Power versus Cursed Ones"""
-"""25% Attack Power versus Draconids"""
-"""25% Attack Power versus Elementa"""
-"""Increases maximum Vitality. Extended duration."""
-"""Grants immunity to poisons, neutralizes the effects of poisons already in bloodstream. Extended duration."""
-"""25% Attack Power versus humans and nonhumans"""
-"""25% Attack Power versus humans and nonhumans"""
-"""25% Attack Power versus Insectoids"""
-"""Accelerates the generation of Adrenaline Points. Extended duration."""
-"""25% Attack Power versus Necrophages"""
-"""25% Attack Power versus Ogroids"""
-"""Increases Sign Intensity. Extended duration."""
-"""25% Attack Power versus Relicts"""
-"""25% Attack Power versus Specters"""
-"""Accelerates Vitality regeneration. Extended duration. Vitality regeneration pauses for 2 seconds upon receiving damage."""
-"""Accelerates Stamina regeneration. Extended duration."""
-"""Increases Attack Power. Extended duration."""
-"""25% Attack Power versus Vampires"""
-"""Clears Toxicity and cances all active potion effects."""
-"""Immediately restores a large portion of Vitality."
-
-
-
-"""Increases the amount of weight the witcher can carry without being overburdened."""
-
-
-
-"""Increases Sign Intensity during cloudy weather."""
-
-
-
-"""Combining fast and strong attacks with Sign abilities increases Attack Power for melee attacks and Sign Intensity while casting."""
-
-
-"""Increases maximum Vitality."""
-
-
-
-
-"""Grants immunity to poisons, neutralizes the effects of poisons already in bloodstream."""
-
-"""Each foe slain accelerates Vitality regeneration for the duration of the battle."""
-
-
-"""Provides the largest boost to Sign Intensity."""
-"""Provides the largest boost to Vitality."""
-"""Provides the largest boost to Attack Power."""
-
-"""Taking damage raises damage resistance (up to an upper limit) for the remainder of the fight."""
-
-
-
-
-
-"""10% Attack Power versus humans and nonhumans"""
-
-
-
-
-
-
-
-
-"""10% Attack Power versus humans and nonhumans"""
-
-"""10% Attack Power versus Insectoids"""
-"""Increases critical hit chance."""
-
-"""Increases breath supply while underwater by 50% and improves vision while diving."""
-"""A portion of the damage dealt by enemies is reflected back on the attacker."""
-
-
-"""Provides a boost to Sign Intensity."""
-"""Provides a boost to Vitality."""
-"""Provides a boost to Attack Power."""
-
-
-
-
-
-
-
-"""Accelerates the generation of Adrenaline Points."""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""10% Attack Power versus Necrophages"""
-
-
-
-
-"""Nekkers will not attack the witcher."""
-"""Mounts never panic. 50% increase to mounted combat damage."""
-
-
-"""Geralt's maximum Vitality is increased with each foe killed. This increase lasts until he meditates or fast travels."""
-
-
-
-
-"""Provides complete immunity to the Knockdown, Hypnosis, Stun and Blindness effects."""
-
-
-"""10% Attack Power versus Ogroids"""
-
-
-"""Increases Sign Intensity."""
-
-
-
-"""Returns all spent Ability Points to the available pool so that you can redistribute them. Cannot be brewed. Purchased only from specific vendors for a high price."""
-
-
-
-
-
-
-
-"""10% Attack Power versus Relicts"""
-"""Increases damage dealt and decreases damage taken against wraiths."""
-
-
-
-
-
-
-
-"""10% Attack Power versus Specters"""
-
-"""Attack Power grows over the course of a fight until reaching a maximum threshold."""
-
-
-"""50% Attack Power versus Beasts"""
-"""Vampires and necrophages start Bleeding when near the witcher. In addition, the witcher's blood injures and knocks them back when they wound him."""
-"""Slows down time for everyone except witcher for a short period after killing an enemy. Great slowdown. Also, with 3 Adrenaline points, actions don't cost any stamina."""
-"""Grants sight in total darkness and immunity to hypnosis. Extended duration."""
-"""50% Attack Power versus Cursed Ones"""
-"""50% Attack Power versus Draconids"""
-"""50% Attack Power versus Elementa"""
-"""Increases maximum Vitality. Extended duration. Heals Vitality by an amount equal to current Toxicity."""
-"""Neutralizes the effects of poisons already in the bloodstream. Extended duration. Poisons now heal instead of doing damage."""
-"""50% Attack Power versus humans and nonhumans"""
-"""50% Attack Power versus humans and nonhumans"""
-"""50% Attack Power versus Insectoids"""
-"""Accelerates the generation of Adrenaline Points. Extended duration. Grants 1 Adrenaline Point upon consumption."""
-"""50% Attack Power verus Necrophages"""
-"""50% Attack Power versus Ogroids"""
-"""Increases Sign Intensity. Extended duration. Signs always apply their special effects."""
-"""50% Attack Power versus Relicts"""
-"""50% Attack Power versus Specters"""
-"""Accelerates Vitality regeneration. Extended duration. Regeneration works in and out of combat for all levels of the potion."""
-"""Accelerates Stamina regeneration. Extended duration. Never expires at night."""
-"""Extended duration. Grants 100% critical hit chance during storms."""
-"""50% Attack Power versus Vampires"""
-"""Clears Toxicity and cances all active potion effects."""
-"""Restores Vitality immediately and fully. Grants immunity to damage for a short duration."""
-"""Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage."""
-
-"""Accelerates Stamina regeneration."""
-
-"""Increases Attack Power."""
-
-"""Regenerates Vitality during and outside of combat."""
-
-
-"""10% Attack Power versus Vampires"""
-
-
-
-
-
-
-"""Damage dealt is increased when Vitality is at its maximum."""
-
-
-"""Running, sprinting and jumping outside combat does not use Stamina."""
-
-
-
-
-"""Clears Toxicity and cances all active potion effects."""
-
-"""Immediately restores a portion of Vitality."""
-
-
-
-"""Whenever a single hit drains more than a third of Vitality, a Quen shield is activated which protects against the next attack."""
-
-"""Each blow landed increases Attack Power until either the fight ends or damage (other than that from potion Toxicity) is taken."""
-
+Aether	/	
+Albedo	/	
+Alchemists' Powder	/	
+Alchemy Paste	/	
+Alcohest	/	
+Alghoul Bone Marrow	/	
+Alghoul Claw	/	
+Alghoul Decoction	/	"""Adrenaline Points are generated more quickly than normal until the first successful enemy attack."""
+Alghoul Mutagen	/	
+Allspice	/	
+Ancient Leshen Decoction	/	"""Each Sign cast increases Stamina regeneration for the remainder of the fight."""
+Ancient Leshen Mutagen	/	
+Arachas Decoction	/	"""Reduces damage received based on armor and inventory weigh: less weight carried and lighter armor means less damage is taken."""
+Arachas Eye	/	
+Arachas Mutagen	/	
+Arachas Venom	/	
+Archgriffin Decoction	/	"""If any Stamina is available, strong strikes consume all of it and reduce the struck foe's Vitality by 10% after their normal damage is calculated."""
+Archgriffin Mutagen	/	
+Arenaria	/	
+Balisse Fruit	/	
+Basilisk Decoction	/	"""Applies a random beneficial effect at dusk and dawn. The effect lasts for six hours."""
+Basilisk Hide	/	
+Basilisk Mutagen	/	
+Basilisk Venom	/	
+Bear Fat	/	
+Bear Pheromones	/	"""Bears will not attack the witcher."""
+Beast Oil	/	"""10% Attack Power versus Beasts"""
+Beggartick Blossoms	/	
+Berbercane Fruit	/	
+Berserker Hide	/	
+Bison Grass	/	
+Black Blood	/	"""Witcher's blood injures vampires and necrophages when they wound him."""
+Blizzard	/	"""Slows down time for everyone except witcher for a short period after killing an enemy."""
+Bloodmoss	/	
+Blowball	/	
+Blowbill	/	
+Bryonia	/	
+Buckthorn	/	
+Calcium Equum	/	
+Cat	/	"""Grants sight in total darkness."""
+Cave Troll Liver	/	
+Celandine	/	
+Cherry Cordial	/	
+Chitin Scale	/	
+Chort Decoction	/	"""Provides complete resistance to the Stagger effect and reduces the Knock-down effect to Stagger."""
+Chort Hide	/	
+Chort Mutagen	/	
+Cockatrice Decoction	/	"""All alchemy creations can be used one additional time."""
+Cockatrice Egg	/	
+Cockatrice Mutagen	/	
+Cockatrice Stomach	/	
+Cortinarius	/	
+Crow's Eye	/	
+Crystallized Essence	/	
+Cursed Oil	/	"""10% Attack Power versus Cursed Ones"""
+Cyclops' Eye	/	
+Dark Essence	/	
+Devourer's Blood	/	
+Dog Tallow	/	
+Doppler Decoction	/	"""Increases critical hit damage when attacking from behind."""
+Doppler Mutagen	/	
+Draconid Oil	/	"""10% Attack Power versus Draconids"""
+Drowner Brain	/	
+Drowner Pheromones	/	"""Drowners will not attack the witcher."""
+Drowner Tongue	/	
+Ducal Water	/	
+Dwarven Spirit	/	
+Earth Elemental Decoction	/	"""Increases resistance to Vitality-depleting critical effects applied during combat. The resistance level rises the longer the critical effect is applied."""
+Earth Elemental Mutagen	/	
+Ekhidna Decoction	/	"""Performing actions that consume Stamina regenerates Vitality."""
+Ekimmara Decoction	/	"""Damage dealt to foes regenerates Vitality."""
+Ekimmara Hide	/	
+Ekimmara Mutagen	/	
+Ekkidna Mutagen	/	
+Elementa Oil	/	"""10% Attack Power versus Elementa"""
+Elemental Essence	/	
+Empty Bottle	/	
+Endrega Embryo	/	
+Endrega Heart	/	
+Enhanced Beast Oil	/	"""25% Attack Power versus Beasts"""
+Enhanced Black Blood	/	"""Witcher's blood injures and knocks back vampires and necrophages when they wound him."""
+Enhanced Blizzard	/	"""Slows down time for everyone except witcher for a short period after killing an enemy. Great slowdown."""
+Enhanced Cat	/	"""Grants sight in total darkness and immunity to hypnosis. Extended duration."""
+Enhanced Cursed Oil	/	"""25% Attack Power versus Cursed Ones"""
+Enhanced Draconid Oil	/	"""25% Attack Power versus Draconids"""
+Enhanced Elementa Oil	/	"""25% Attack Power versus Elementa"""
+Enhanced Full Moon	/	"""Increases maximum Vitality. Extended duration."""
+Enhanced Golden Oriole	/	"""Grants immunity to poisons, neutralizes the effects of poisons already in bloodstream. Extended duration."""
+Enhanced Hanged Man's Venom	/	"""25% Attack Power versus humans and nonhumans"""
+Enhanced Hybrid Oil	/	"""25% Attack Power versus humans and nonhumans"""
+Enhanced Insectoid Oil	/	"""25% Attack Power versus Insectoids"""
+Enhanced Maribor Forest	/	"""Accelerates the generation of Adrenaline Points. Extended duration."""
+Enhanced Necrophage Oil	/	"""25% Attack Power versus Necrophages"""
+Enhanced Ogroid Oil	/	"""25% Attack Power versus Ogroids"""
+Enhanced Petri's Philter	/	"""Increases Sign Intensity. Extended duration."""
+Enhanced Relict Oil	/	"""25% Attack Power versus Relicts"""
+Enhanced Specter Oil	/	"""25% Attack Power versus Specters"""
+Enhanced Swallow	/	"""Accelerates Vitality regeneration. Extended duration. Vitality regeneration pauses for 2 seconds upon receiving damage."""
+Enhanced Tawny Owl	/	"""Accelerates Stamina regeneration. Extended duration."""
+Enhanced Thunderbolt	/	"""Increases Attack Power. Extended duration."""
+Enhanced Vampire Oil	/	"""25% Attack Power versus Vampires"""
+Enhanced White Honey	/	"""Clears Toxicity and cances all active potion effects."""
+Enhanced White Rafford's Decoction	/	"""Immediately restores a large portion of Vitality."
+Ergot Seeds	/	
+Erynia Eye	/	
+Essence of Wraith	/	
+Fiend Decoction	/	"""Increases the amount of weight the witcher can carry without being overburdened."""
+Fiend Mutagen	/	
+Fiend's Eye	/	
+Fifth Essence	/	
+Foglet Decoction	/	"""Increases Sign Intensity during cloudy weather."""
+Foglet Mutagen	/	
+Foglet Teeth	/	
+Fool's Parsley Leaves	/	
+Forktail Decoction	/	"""Combining fast and strong attacks with Sign abilities increases Attack Power for melee attacks and Sign Intensity while casting."""
+Forktail Hide	/	
+Forktail Mutagen	/	
+Full Moon	/	"""Increases maximum Vitality."""
+Gargoyle Dust	/	
+Gargoyle Heart	/	
+Ghoul's Blood	/	
+Ginatia Petals	/	
+Golden Oriole	/	"""Grants immunity to poisons, neutralizes the effects of poisons already in bloodstream."""
+Golem's Heart	/	
+Grave Hag Decoction	/	"""Each foe slain accelerates Vitality regeneration for the duration of the battle."""
+Grave Hag Mutagen	/	
+Grave Hag's Ear	/	
+Greater Blue Mutagen	/	"""Provides the largest boost to Sign Intensity."""
+Greater Green Mutagen	/	"""Provides the largest boost to Vitality."""
+Greater Red Mutagen	/	"""Provides the largest boost to Attack Power."""
+Green Mold	/	
+Griffin Decoction	/	"""Taking damage raises damage resistance (up to an upper limit) for the remainder of the fight."""
+Griffin Feathers	/	
+Griffin Mutagen	/	
+Griffin's Egg	/	
+Hag Tooth	/	
+Han Fiber	/	
+Hanged Man's Venom	/	"""10% Attack Power versus humans and nonhumans"""
+Harpy Eggs	/	
+Harpy Feathers	/	
+Harpy Talons	/	
+Hellebore Petals	/	
+Homemade Pepper Vodka	/	
+Honeysuckle	/	
+Hop Umbels	/	
+Hornwort	/	
+Hybrid Oil	/	"""10% Attack Power versus humans and nonhumans"""
+Hydragenum	/	
+Insectoid Oil	/	"""10% Attack Power versus Insectoids"""
+Katakan Decoction	/	"""Increases critical hit chance."""
+Katakan Mutagen	/	
+Killer Whale	/	"""Increases breath supply while underwater by 50% and improves vision while diving."""
+Leshen Decoction	/	"""A portion of the damage dealt by enemies is reflected back on the attacker."""
+Leshen Mutagen	/	
+Leshen Resin	/	
+Lesser Blue Mutagen	/	"""Provides a boost to Sign Intensity."""
+Lesser Green Mutagen	/	"""Provides a boost to Vitality."""
+Lesser Red Mutagen	/	"""Provides a boost to Attack Power."""
+Light Essence	/	
+Lock of Lamia Hair	/	
+Longrube	/	
+Lunar Shards	/	
+Mahakaman Spirit	/	
+Mandrake Cordial	/	
+Mandrake Root	/	
+Maribor Forest	/	"""Accelerates the generation of Adrenaline Points."""
+Mistletoe	/	
+Moleyarrow	/	
+Monster Blood	/	
+Monster Claw	/	
+Monster Dust	/	
+Monster Egg	/	
+Monster Essence	/	
+Monster Feather	/	
+Monster Hair	/	
+Monster Heart	/	
+Monster Hide	/	
+Monster Liver	/	
+Monster Plate	/	
+Monster Saliva	/	
+Monster Tongue	/	
+Monster Tooth	/	
+Necrophage Hide	/	
+Necrophage Oil	/	"""10% Attack Power versus Necrophages"""
+Nekker Blood	/	
+Nekker Claw	/	
+Nekker Eye	/	
+Nekker Heart	/	
+Nekker Pheromones	/	"""Nekkers will not attack the witcher."""
+Nekker Warrior Decoction	/	"""Mounts never panic. 50% increase to mounted combat damage."""
+Nekker Warrior Mutagen	/	
+Nekker Warrior's Liver	/	
+Nightwraith Decoction	/	"""Geralt's maximum Vitality is increased with each foe killed. This increase lasts until he meditates or fast travels."""
+Nightwraith Hair	/	
+Nightwraith Mutagen	/	
+Nigredo	/	
+Nilfgaardian Lemon	/	
+Noonwraith Decoction	/	"""Provides complete immunity to the Knockdown, Hypnosis, Stun and Blindness effects."""
+Noonwraith Mutagen	/	
+Nostrix	/	
+Ogroid Oil	/	"""10% Attack Power versus Ogroids"""
+Oil	/	
+Optima Mater	/	
+Petri's Philter	/	"""Increases Sign Intensity."""
+Phosphorus	/	
+Pigskin Puffball	/	
+Pop's Mold Antidote	/	
+Potion of Clearance	/	"""Returns all spent Ability Points to the available pool so that you can redistribute them. Cannot be brewed. Purchased only from specific vendors for a high price."""
+Pringrape	/	
+Puffball	/	
+Quebrith	/	
+Quicksilver Solution	/	
+Ranogrin	/	
+Rebis	/	
+Redanian Herbal	/	
+Relict Oil	/	"""10% Attack Power versus Relicts"""
+Reliever's Decoction	/	"""Increases damage dealt and decreases damage taken against wraiths."""
+Resin	/	
+Ribleaf	/	
+Rotfiend Blood	/	
+Rubedo	/	
+Saltpeter	/	
+Sewant Mushrooms	/	
+Specter Dust	/	
+Specter Oil	/	"""10% Attack Power versus Specters"""
+Stammelford's Dust	/	
+Succubus Decoction	/	"""Attack Power grows over the course of a fight until reaching a maximum threshold."""
+Succubus Mutagen	/	
+Sulfur	/	
+Superior Beast Oil	/	"""50% Attack Power versus Beasts"""
+Superior Black Blood	/	"""Vampires and necrophages start Bleeding when near the witcher. In addition, the witcher's blood injures and knocks them back when they wound him."""
+Superior Blizzard	/	"""Slows down time for everyone except witcher for a short period after killing an enemy. Great slowdown. Also, with 3 Adrenaline points, actions don't cost any stamina."""
+Superior Cat	/	"""Grants sight in total darkness and immunity to hypnosis. Extended duration."""
+Superior Cursed Oil	/	"""50% Attack Power versus Cursed Ones"""
+Superior Draconid Oil	/	"""50% Attack Power versus Draconids"""
+Superior Elementa Oil	/	"""50% Attack Power versus Elementa"""
+Superior Full Moon	/	"""Increases maximum Vitality. Extended duration. Heals Vitality by an amount equal to current Toxicity."""
+Superior Golden Oriole	/	"""Neutralizes the effects of poisons already in the bloodstream. Extended duration. Poisons now heal instead of doing damage."""
+Superior Hanged Man's Venom	/	"""50% Attack Power versus humans and nonhumans"""
+Superior Hybrid Oil	/	"""50% Attack Power versus humans and nonhumans"""
+Superior Insectoid Oil	/	"""50% Attack Power versus Insectoids"""
+Superior Maribor Forest	/	"""Accelerates the generation of Adrenaline Points. Extended duration. Grants 1 Adrenaline Point upon consumption."""
+Superior Necrophage Oil	/	"""50% Attack Power verus Necrophages"""
+Superior Ogroid Oil	/	"""50% Attack Power versus Ogroids"""
+Superior Petri's Philter	/	"""Increases Sign Intensity. Extended duration. Signs always apply their special effects."""
+Superior Relict Oil	/	"""50% Attack Power versus Relicts"""
+Superior Specter Oil	/	"""50% Attack Power versus Specters"""
+Superior Swallow	/	"""Accelerates Vitality regeneration. Extended duration. Regeneration works in and out of combat for all levels of the potion."""
+Superior Tawny Owl	/	"""Accelerates Stamina regeneration. Extended duration. Never expires at night."""
+Superior Thunderbolt	/	"""Extended duration. Grants 100% critical hit chance during storms."""
+Superior Vampire Oil	/	"""50% Attack Power versus Vampires"""
+Superior White Honey	/	"""Clears Toxicity and cances all active potion effects."""
+Superior White Rafford's Decoction	/	"""Restores Vitality immediately and fully. Grants immunity to damage for a short duration."""
+Swallow	/	"""Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage."""
+Tawny Oil	/	
+Tawny Owl	/	"""Accelerates Stamina regeneration."""
+Temerian Rye	/	
+Thunderbolt	/	"""Increases Attack Power."""
+Troll Claw	/	
+Troll Decoction	/	"""Regenerates Vitality during and outside of combat."""
+Troll Hide	/	
+Vampire Fang	/	
+Vampire Oil	/	"""10% Attack Power versus Vampires"""
+Vampire Saliva	/	
+Venom Extract	/	
+Verbena	/	
+Vermilion	/	
+Vitriol	/	
+Water Essence	/	
+Water Hag Decoction	/	"""Damage dealt is increased when Vitality is at its maximum."""
+Water Hag Mutagen	/	
+Water Hag Tooth	/	
+Werewolf Decoction	/	"""Running, sprinting and jumping outside combat does not use Stamina."""
+Werewolf Hide	/	
+Werewolf Mutagen	/	
+Werewolf Saliva	/	
+White Gull	/	
+White Honey	/	"""Clears Toxicity and cances all active potion effects."""
+White Myrtle Petals	/	
+White Raffard's Decoction	/	"""Immediately restores a portion of Vitality."""
+Wine Stone	/	
+Wolf's Liver	/	
+Wolfsbane	/	
+Wraith Decoction	/	"""Whenever a single hit drains more than a third of Vitality, a Quen shield is activated which protects against the next attack."""
+Wraith Mutagen	/	
+Wyvern Decoction	/	"""Each blow landed increases Attack Power until either the fight ends or damage (other than that from potion Toxicity) is taken."""
+Wyvern Egg	/	
+Wyvern Hide	/	
+Wyvern Mutagen	/	
