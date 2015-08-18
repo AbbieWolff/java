@@ -1,0 +1,288 @@
+
+
+
+
+
+
+
+
+"""Adrenaline Points are generated more quickly than normal until the first successful enemy attack."""
+
+
+"""Each Sign cast increases Stamina regeneration for the remainder of the fight."""
+
+"""Reduces damage received based on armor and inventory weigh: less weight carried and lighter armor means less damage is taken."""
+
+
+
+"""If any Stamina is available, strong strikes consume all of it and reduce the struck foe's Vitality by 10% after their normal damage is calculated."""
+
+
+
+"""Applies a random beneficial effect at dusk and dawn. The effect lasts for six hours."""
+
+
+
+
+"""Bears will not attack the witcher."""
+"""10% Attack Power versus Beasts"""
+
+
+
+
+"""Witcher's blood injures vampires and necrophages when they wound him."""
+"""Slows down time for everyone except witcher for a short period after killing an enemy."""
+
+
+
+
+
+
+"""Grants sight in total darkness."""
+
+
+
+
+"""Provides complete resistance to the Stagger effect and reduces the Knock-down effect to Stagger."""
+
+
+"""All alchemy creations can be used one additional time."""
+
+
+
+
+
+
+"""10% Attack Power versus Cursed Ones"""
+
+
+
+
+"""Increases critical hit damage when attacking from behind."""
+
+"""10% Attack Power versus Draconids"""
+
+"""Drowners will not attack the witcher."""
+
+
+
+"""Increases resistance to Vitality-depleting critical effects applied during combat. The resistance level rises the longer the critical effect is applied."""
+
+"""Performing actions that consume Stamina regenerates Vitality."""
+"""Damage dealt to foes regenerates Vitality."""
+
+
+
+"""10% Attack Power versus Elementa"""
+
+
+
+
+"""25% Attack Power versus Beasts"""
+"""Witcher's blood injures and knocks back vampires and necrophages when they wound him."""
+"""Slows down time for everyone except witcher for a short period after killing an enemy. Great slowdown."""
+"""Grants sight in total darkness and immunity to hypnosis. Extended duration."""
+"""25% Attack Power versus Cursed Ones"""
+"""25% Attack Power versus Draconids"""
+"""25% Attack Power versus Elementa"""
+"""Increases maximum Vitality. Extended duration."""
+"""Grants immunity to poisons, neutralizes the effects of poisons already in bloodstream. Extended duration."""
+"""25% Attack Power versus humans and nonhumans"""
+"""25% Attack Power versus humans and nonhumans"""
+"""25% Attack Power versus Insectoids"""
+"""Accelerates the generation of Adrenaline Points. Extended duration."""
+"""25% Attack Power versus Necrophages"""
+"""25% Attack Power versus Ogroids"""
+"""Increases Sign Intensity. Extended duration."""
+"""25% Attack Power versus Relicts"""
+"""25% Attack Power versus Specters"""
+"""Accelerates Vitality regeneration. Extended duration. Vitality regeneration pauses for 2 seconds upon receiving damage."""
+"""Accelerates Stamina regeneration. Extended duration."""
+"""Increases Attack Power. Extended duration."""
+"""25% Attack Power versus Vampires"""
+"""Clears Toxicity and cances all active potion effects."""
+"""Immediately restores a large portion of Vitality."
+
+
+
+"""Increases the amount of weight the witcher can carry without being overburdened."""
+
+
+
+"""Increases Sign Intensity during cloudy weather."""
+
+
+
+"""Combining fast and strong attacks with Sign abilities increases Attack Power for melee attacks and Sign Intensity while casting."""
+
+
+"""Increases maximum Vitality."""
+
+
+
+
+"""Grants immunity to poisons, neutralizes the effects of poisons already in bloodstream."""
+
+"""Each foe slain accelerates Vitality regeneration for the duration of the battle."""
+
+
+"""Provides the largest boost to Sign Intensity."""
+"""Provides the largest boost to Vitality."""
+"""Provides the largest boost to Attack Power."""
+
+"""Taking damage raises damage resistance (up to an upper limit) for the remainder of the fight."""
+
+
+
+
+
+"""10% Attack Power versus humans and nonhumans"""
+
+
+
+
+
+
+
+
+"""10% Attack Power versus humans and nonhumans"""
+
+"""10% Attack Power versus Insectoids"""
+"""Increases critical hit chance."""
+
+"""Increases breath supply while underwater by 50% and improves vision while diving."""
+"""A portion of the damage dealt by enemies is reflected back on the attacker."""
+
+
+"""Provides a boost to Sign Intensity."""
+"""Provides a boost to Vitality."""
+"""Provides a boost to Attack Power."""
+
+
+
+
+
+
+
+"""Accelerates the generation of Adrenaline Points."""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""10% Attack Power versus Necrophages"""
+
+
+
+
+"""Nekkers will not attack the witcher."""
+"""Mounts never panic. 50% increase to mounted combat damage."""
+
+
+"""Geralt's maximum Vitality is increased with each foe killed. This increase lasts until he meditates or fast travels."""
+
+
+
+
+"""Provides complete immunity to the Knockdown, Hypnosis, Stun and Blindness effects."""
+
+
+"""10% Attack Power versus Ogroids"""
+
+
+"""Increases Sign Intensity."""
+
+
+
+"""Returns all spent Ability Points to the available pool so that you can redistribute them. Cannot be brewed. Purchased only from specific vendors for a high price."""
+
+
+
+
+
+
+
+"""10% Attack Power versus Relicts"""
+"""Increases damage dealt and decreases damage taken against wraiths."""
+
+
+
+
+
+
+
+"""10% Attack Power versus Specters"""
+
+"""Attack Power grows over the course of a fight until reaching a maximum threshold."""
+
+
+"""50% Attack Power versus Beasts"""
+"""Vampires and necrophages start Bleeding when near the witcher. In addition, the witcher's blood injures and knocks them back when they wound him."""
+"""Slows down time for everyone except witcher for a short period after killing an enemy. Great slowdown. Also, with 3 Adrenaline points, actions don't cost any stamina."""
+"""Grants sight in total darkness and immunity to hypnosis. Extended duration."""
+"""50% Attack Power versus Cursed Ones"""
+"""50% Attack Power versus Draconids"""
+"""50% Attack Power versus Elementa"""
+"""Increases maximum Vitality. Extended duration. Heals Vitality by an amount equal to current Toxicity."""
+"""Neutralizes the effects of poisons already in the bloodstream. Extended duration. Poisons now heal instead of doing damage."""
+"""50% Attack Power versus humans and nonhumans"""
+"""50% Attack Power versus humans and nonhumans"""
+"""50% Attack Power versus Insectoids"""
+"""Accelerates the generation of Adrenaline Points. Extended duration. Grants 1 Adrenaline Point upon consumption."""
+"""50% Attack Power verus Necrophages"""
+"""50% Attack Power versus Ogroids"""
+"""Increases Sign Intensity. Extended duration. Signs always apply their special effects."""
+"""50% Attack Power versus Relicts"""
+"""50% Attack Power versus Specters"""
+"""Accelerates Vitality regeneration. Extended duration. Regeneration works in and out of combat for all levels of the potion."""
+"""Accelerates Stamina regeneration. Extended duration. Never expires at night."""
+"""Extended duration. Grants 100% critical hit chance during storms."""
+"""50% Attack Power versus Vampires"""
+"""Clears Toxicity and cances all active potion effects."""
+"""Restores Vitality immediately and fully. Grants immunity to damage for a short duration."""
+"""Accelerates Vitality regeneration. Vitality regeneration pauses for 2 seconds upon receiving damage."""
+
+"""Accelerates Stamina regeneration."""
+
+"""Increases Attack Power."""
+
+"""Regenerates Vitality during and outside of combat."""
+
+
+"""10% Attack Power versus Vampires"""
+
+
+
+
+
+
+"""Damage dealt is increased when Vitality is at its maximum."""
+
+
+"""Running, sprinting and jumping outside combat does not use Stamina."""
+
+
+
+
+"""Clears Toxicity and cances all active potion effects."""
+
+"""Immediately restores a portion of Vitality."""
+
+
+
+"""Whenever a single hit drains more than a third of Vitality, a Quen shield is activated which protects against the next attack."""
+
+"""Each blow landed increases Attack Power until either the fight ends or damage (other than that from potion Toxicity) is taken."""
+
